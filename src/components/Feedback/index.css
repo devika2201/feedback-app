@@ -1,0 +1,44 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 55vh;
+  width: 45vw;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+
+.emoji-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.emoji {
+  height: 10vh;
+  width: 5vw;
+  margin: 20px;
+}
+
+.emoji-btn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
